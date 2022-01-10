@@ -1,3 +1,11 @@
+how to run it:
+
+unzip: santa-0.0.1-SNAPSHOT.7z.00X
+
+run the following command: java -jar .\santa-0.0.1-SNAPSHOT.jar
+
+to prepare a db you can run the following script: db_script.sql (MySQL)
+
 Database connection:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_directory?useSSL=false&serverTimezone=UTC
@@ -6,7 +14,7 @@ spring.datasource.password=newpassword
 
 
 
-1. Provide an API endpoint to register a new teammate
+1. Provide an API endpoint to register a new teammate (https://github.com/maclucas01/backend-api-challenge/blob/main/API%20endpoint%20to%20register%20a%20new%20teammate.png)
 
 - POST http://localhost:8080/api/employees
 
@@ -18,7 +26,7 @@ with json body:
         "email": "test@email"
     },
 
-2. Provide an API endpoint to collect a list of all Secret Santas for the selected year
+2. Provide an API endpoint to collect a list of all Secret Santas for the selected year (https://github.com/maclucas01/backend-api-challenge/blob/main/API%20for%20list%20of%20all%20Secret%20Santas%20for%20the%20selected%20year.png)
 
 - GET http://localhost:8080/api/secretSanta/2022
 
