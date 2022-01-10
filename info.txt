@@ -30,3 +30,6 @@ with json body:
 
 - GET http://localhost:8080/api/secretSanta/2022
 
+3. Provide API to generate Secret Santa results (https://github.com/maclucas01/backend-api-challenge/blob/main/API%20to%20generate%20Secret%20Santas%20result.png)
+- PUT http://localhost:8080/api/pickSecretSanta/2022
+
